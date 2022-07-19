@@ -33,6 +33,7 @@ load("~/Maestria/TFM/TFMproj/serietotval.Rdata")
 
 prueba<-test
 rm(test)
+
 gc()
 
 estareas <-function (base, area) {
